@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+body {
+    background-color: #FAFCFD;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#heading-div {
+    width: 40%;
+    margin: 80px auto 50px auto;
+}
+
+#heading { font-size: 28px;
+text-align: center;}
+
+#search {
+    display: block;
+    margin: 30px auto auto auto;
+    width: 40vw;
+    height: 6vh;
+    border-radius: 40px;
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+h3{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.inside-text-head {
+    font-size: 1.15rem;
+    line-height: 0.25rem;
+}
+
+.inside-text-sub {
+font-size: 0.8em;
+margin-top: -15px;
+}
+
+.inside-text-para {
+    font-size: 0.95rem ;
+}
+
+#grid-container {
+    display : grid;
+    grid-template-columns: auto auto auto;
+   width : 80vw;
+   margin-left: auto;
+   margin-right: auto;
+   grid-row-gap: 1vw;
+   grid-column-gap: 1vw;
+   margin-bottom: 200px;
+}
+
+.grid-item {
+    height : 23vh;
+    width: 23vw;
+    display: flex;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    transition: 0.3s;
+opacity: 100%;
+}
+
+.grid-item img {
+    width: 50px;
+    height: 50px;
+    border-radius : 50%;
+    margin-right: 5px;
+    margin-top : 20px;
+
+}
+
+#bookmark {font-size: 0.9rem;
+font-weight: 500;}
+
+#insidediv {margin-top: 50px;}
+
+#insidediv button {
+    margin-left: 70px;
+    background-color: #141A31;
+    color: white;
+    padding : 7px;
+    border-radius: 7px;
+    width: 6rem;
+}
+
+.grid-item:hover {
+     
+ transform: scale(1.25, 1.25);
+}
+
